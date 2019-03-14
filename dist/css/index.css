@@ -1,0 +1,239 @@
+img {
+  max-width: 100%;
+  vertical-align: middle;
+}
+.wrap {
+  background-color: #312898;
+  min-width: 1280px;
+}
+.banner {
+  background-color: #312898;
+  background-image: url('../images/banner_bg.png');
+  background-position: 50%;
+  height: 1080px;
+}
+.banner .header {
+  height: 48px;
+  min-width: 1280px;
+  position: fixed;
+  width: 100%;
+}
+.banner .header .logo {
+  width: 177px;
+  height: 38px;
+  background: url("../images/logo.png") no-repeat;
+  margin-top: 5px;
+  margin-left: 20px;
+  float: left;
+}
+.nav {
+  float: right;
+  min-width: 1050px;
+}
+.nav .menu {
+  float: left;
+  margin-top: 10px;
+  text-align: right;
+  width: calc(100% - 115px);
+}
+.nav .menu .item {
+  color: rgba(255, 255, 255, 0.6);
+  display: inline-block;
+  font-size: 14px;
+  line-height: 27px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.nav .menu .active {
+  color: #ffffff;
+  border-bottom: 2px solid #fff;
+}
+.nav .language {
+  color: #fff;
+  float: left;
+  margin-left: 20px;
+  margin-top: 14px;
+  position: relative;
+  text-align: left;
+}
+.nav .language .pack-up {
+  cursor: pointer;
+  font-size: 12px;
+}
+.nav .language .pack-up:nth-child(2) {
+  display: none;
+}
+.nav .language .pack-up span {
+  display: inline-block;
+  margin-left: 5px;
+  position: relative;
+  top: 2px;
+}
+.nav .language .drop-down {
+  cursor: pointer;
+  font-size: 12px;
+  margin-top: 5px;
+  display: none;
+}
+.nav .language .drop-down span {
+  display: inline-block;
+  margin-left: 5px;
+  position: relative;
+  top: 2px;
+}
+.pcpage1 {
+  padding-top: 180px;
+  text-align: center;
+}
+.pcpage1 .banner-logo {
+  opacity: 0.9;
+}
+.pcpage1 .logoText1 {
+  color: #fff;
+  font-size: 80px;
+  font-weight: 700;
+  margin-top: 30px;
+  opacity: 0.9;
+}
+.pcpage1 .logoText2 {
+  color: #fff;
+  font-size: 30px;
+  font-weight: 400;
+  margin-top: 10px;
+  opacity: 0.9;
+}
+.pcpage1 .btn {
+  background: -webkit-gradient(linear, left top, right top, from(#1dadf5), to(#1979ff));
+  background: linear-gradient(90deg, #1dadf5, #1979ff);
+  border-radius: 4px;
+  height: 50px;
+  line-height: 50px;
+  margin-top: 50px;
+  width: 160px;
+  border: 1px solid transparent;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 1rem;
+  font-weight: 400;
+  text-align: center;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  vertical-align: middle;
+  white-space: nowrap;
+  color: #ffffff;
+}
+.pcpage1 .pdf {
+  display: none;
+}
+.content {
+  background: url("../images/bg.5d4c06e9.png") no-repeat;
+}
+.content #pcpage2 {
+  margin: 80px;
+}
+.content #pcpage2 .lvl2 {
+  background: url("../images/youshi_img1.78c8775f.png");
+  background-position: 50%;
+  background-repeat: no-repeat;
+  height: 400px;
+  margin: 0 auto;
+  position: relative;
+}
+.content #pcpage2 .lvl2 .text {
+  background: rgba(0, 0, 0, 0.15);
+  bottom: 0;
+  cursor: pointer;
+  position: absolute;
+  right: 0;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+.content #pcpage2 .lvl2 .text .header {
+  color: rgba(204, 221, 255, 0.6);
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+.content #pcpage2 .lvl2 .text .detail {
+  color: rgba(204, 221, 255, 0.3);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.5;
+}
+.content #pcpage2 .lvl2 .text:hover {
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  background: -webkit-gradient(linear, right top, left top, from(rgba(51, 37, 182, 0.5)), to(rgba(222, 14, 247, 0.5)));
+  background: linear-gradient(-90deg, rgba(51, 37, 182, 0.5), rgba(222, 14, 247, 0.5));
+}
+.content #pcpage2 .lvl2 .text:hover .header {
+  color: #ffffff;
+}
+.content #pcpage2 .lvl2 .text:hover .detail {
+  color: rgba(204, 221, 255, 0.6);
+}
+.content #pcpage2 .lvl31 {
+  background-image: url("../images/youshi_img2.fec6a5fa.png");
+  background-position: 50%;
+  background-repeat: no-repeat;
+  float: left;
+  height: 400px;
+  position: relative;
+  width: 50%;
+}
+.content #pcpage2 .lvl31 .text {
+  background: rgba(0, 0, 0, 0.15);
+  bottom: 0;
+  cursor: pointer;
+  position: absolute;
+  right: 0;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+.content #pcpage2 .lvl31 .text .header {
+  color: rgba(204, 221, 255, 0.6);
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+.content #pcpage2 .lvl31 .text .detail {
+  color: rgba(204, 221, 255, 0.3);
+  font-size: 14px;
+  font-weight: 400;
+}
+.content #pcpage2 .lvl31 .text:hover {
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  background: -webkit-gradient(linear, right top, left top, from(rgba(51, 37, 182, 0.5)), to(rgba(222, 14, 247, 0.5)));
+  background: linear-gradient(-90deg, rgba(51, 37, 182, 0.5), rgba(222, 14, 247, 0.5));
+}
+.content #pcpage2 .lvl31 .text:hover .header {
+  color: #ffffff;
+}
+.content #pcpage2 .lvl31 .text:hover .detail {
+  color: rgba(204, 221, 255, 0.6);
+}
+.content #pcpage2 .lvl32 {
+  background-image: url("../images/youshi_img3.283bfe32.png");
+  background-position: 50%;
+  background-repeat: no-repeat;
+  float: left;
+  height: 400px;
+  position: relative;
+  width: 50%;
+}
+@media screen and (min-width: 961px) {
+  #pcpage2 .lvl2 .text {
+    padding: 30px 50px;
+    width: 50%;
+  }
+  #pcpage2 .lvl31 .text {
+    padding: 30px 50px;
+  }
+}
