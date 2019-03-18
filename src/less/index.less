@@ -2,6 +2,9 @@ img{
   max-width: 100%;
   vertical-align: middle;
 }
+a {
+  text-decoration: none;
+}
 
 .wrap {
   background-color: #312898;
@@ -137,7 +140,8 @@ img{
 }
 
 .content{
-  background: url("../images/bg.5d4c06e9.png") no-repeat;
+  background: url("../images/bg.5d4c06e9.png");
+  //border: 1px solid red;
   #pcpage2{
     margin: 80px;
     .lvl2{
@@ -182,53 +186,107 @@ img{
         }
       }
     }
-    .lvl31{
-      background-image: url("../images/youshi_img2.fec6a5fa.png");
-      background-position: 50%;
-      background-repeat: no-repeat;
-      float: left;
+    .lvl3{
       height: 400px;
-      position: relative;
-      width: 50%;
-      .text{
-        background: rgba(0,0,0,.15);
-        bottom: 0;
-        cursor: pointer;
-        position: absolute;
-        right: 0;
-        transition: all .5s;
-        .header{
-          color: rgba(204,221,255,.6);
-          font-size: 18px;
-          font-weight: 700;
-          margin-bottom: 10px;
-        }
-        .detail{
-          color: rgba(204,221,255,.3);
-          //font-family: MicrosoftYaHei;
-          font-size: 14px;
-          font-weight: 400;
-        }
-        &:hover{
+      .lvl31{
+        background-image: url("../images/youshi_img2.fec6a5fa.png");
+        background-position: 50%;
+        background-repeat: no-repeat;
+        float: left;
+        height: 400px;
+        position: relative;
+        width: 50%;
+        .text{
+          background: rgba(0,0,0,.15);
+          bottom: 0;
+          cursor: pointer;
+          position: absolute;
+          right: 0;
           transition: all .5s;
-          background: linear-gradient(-90deg, rgba(51, 37, 182, .5), rgba(222, 14, 247, .5));
           .header{
-            color: #ffffff;
+            color: rgba(204,221,255,.6);
+            font-size: 18px;
+            font-weight: 700;
+            margin-bottom: 10px;
           }
           .detail{
-            color:rgba(204,221,255,.6)
+            color: rgba(204,221,255,.3);
+            //font-family: MicrosoftYaHei;
+            font-size: 14px;
+            font-weight: 400;
+          }
+          &:hover{
+            transition: all .5s;
+            background: linear-gradient(-90deg, rgba(51, 37, 182, .5), rgba(222, 14, 247, .5));
+            .header{
+              color: #ffffff;
+            }
+            .detail{
+              color:rgba(204,221,255,.6)
+            }
+          }
+        }
+      }
+      .lvl32{
+        background-image: url("../images/youshi_img3.283bfe32.png");
+        background-position: 50%;
+        background-repeat: no-repeat;
+        float: left;
+        height: 400px;
+        position: relative;
+        width: 50%;
+        .text{
+          background: rgba(0,0,0,.15);
+          bottom: 0;
+          cursor: pointer;
+          position: absolute;
+          right: 0;
+          transition: all .5s;
+          .header{
+            color: rgba(204,221,255,.6);
+            font-size: 18px;
+            font-weight: 700;
+            margin-bottom: 10px;
+          }
+          .detail{
+            color: rgba(204,221,255,.3);
+            //font-family: MicrosoftYaHei;
+            font-size: 14px;
+            font-weight: 400;
+          }
+          &:hover{
+            transition: all .5s;
+            background: linear-gradient(-90deg, rgba(51, 37, 182, .5), rgba(222, 14, 247, .5));
+            .header{
+              color: #ffffff;
+            }
+            .detail{
+              color:rgba(204,221,255,.6)
+            }
           }
         }
       }
     }
-    .lvl32{
-      background-image: url("../images/youshi_img3.283bfe32.png");
-      background-position: 50%;
-      background-repeat: no-repeat;
-      float: left;
-      height: 400px;
-      position: relative;
-      width: 50%;
+
+  }
+
+  #pcpage3{
+    padding-top: 95px;
+    padding-bottom: 125px;
+    .page3-content{
+      margin: 0 auto;
+      width: 1280px;
+      .page3-text {
+        float: left;
+        padding-top: 170px;
+        width: 610px;
+        .content {
+          color: #a1b8e6;
+          font-size: 16px;
+          font-weight: 400;
+          background-image: url("../images/bg.5d4c06e9.png");
+        }
+      }
     }
   }
 }
@@ -239,6 +297,9 @@ img{
     width: 50%;
   }
   #pcpage2 .lvl31 .text{
+    padding: 30px 50px;
+  }
+  #pcpage2 .lvl32 .text {
     padding: 30px 50px;
   }
 }

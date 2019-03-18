@@ -2,6 +2,9 @@ img {
   max-width: 100%;
   vertical-align: middle;
 }
+a {
+  text-decoration: none;
+}
 .wrap {
   background-color: #312898;
   min-width: 1280px;
@@ -130,7 +133,7 @@ img {
   display: none;
 }
 .content {
-  background: url("../images/bg.5d4c06e9.png") no-repeat;
+  background: url("../images/bg.5d4c06e9.png");
 }
 .content #pcpage2 {
   margin: 80px;
@@ -178,7 +181,10 @@ img {
 .content #pcpage2 .lvl2 .text:hover .detail {
   color: rgba(204, 221, 255, 0.6);
 }
-.content #pcpage2 .lvl31 {
+.content #pcpage2 .lvl3 {
+  height: 400px;
+}
+.content #pcpage2 .lvl3 .lvl31 {
   background-image: url("../images/youshi_img2.fec6a5fa.png");
   background-position: 50%;
   background-repeat: no-repeat;
@@ -187,7 +193,7 @@ img {
   position: relative;
   width: 50%;
 }
-.content #pcpage2 .lvl31 .text {
+.content #pcpage2 .lvl3 .lvl31 .text {
   background: rgba(0, 0, 0, 0.15);
   bottom: 0;
   cursor: pointer;
@@ -196,30 +202,30 @@ img {
   -webkit-transition: all 0.5s;
   transition: all 0.5s;
 }
-.content #pcpage2 .lvl31 .text .header {
+.content #pcpage2 .lvl3 .lvl31 .text .header {
   color: rgba(204, 221, 255, 0.6);
   font-size: 18px;
   font-weight: 700;
   margin-bottom: 10px;
 }
-.content #pcpage2 .lvl31 .text .detail {
+.content #pcpage2 .lvl3 .lvl31 .text .detail {
   color: rgba(204, 221, 255, 0.3);
   font-size: 14px;
   font-weight: 400;
 }
-.content #pcpage2 .lvl31 .text:hover {
+.content #pcpage2 .lvl3 .lvl31 .text:hover {
   -webkit-transition: all 0.5s;
   transition: all 0.5s;
   background: -webkit-gradient(linear, right top, left top, from(rgba(51, 37, 182, 0.5)), to(rgba(222, 14, 247, 0.5)));
   background: linear-gradient(-90deg, rgba(51, 37, 182, 0.5), rgba(222, 14, 247, 0.5));
 }
-.content #pcpage2 .lvl31 .text:hover .header {
+.content #pcpage2 .lvl3 .lvl31 .text:hover .header {
   color: #ffffff;
 }
-.content #pcpage2 .lvl31 .text:hover .detail {
+.content #pcpage2 .lvl3 .lvl31 .text:hover .detail {
   color: rgba(204, 221, 255, 0.6);
 }
-.content #pcpage2 .lvl32 {
+.content #pcpage2 .lvl3 .lvl32 {
   background-image: url("../images/youshi_img3.283bfe32.png");
   background-position: 50%;
   background-repeat: no-repeat;
@@ -228,12 +234,66 @@ img {
   position: relative;
   width: 50%;
 }
+.content #pcpage2 .lvl3 .lvl32 .text {
+  background: rgba(0, 0, 0, 0.15);
+  bottom: 0;
+  cursor: pointer;
+  position: absolute;
+  right: 0;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+.content #pcpage2 .lvl3 .lvl32 .text .header {
+  color: rgba(204, 221, 255, 0.6);
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+.content #pcpage2 .lvl3 .lvl32 .text .detail {
+  color: rgba(204, 221, 255, 0.3);
+  font-size: 14px;
+  font-weight: 400;
+}
+.content #pcpage2 .lvl3 .lvl32 .text:hover {
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  background: -webkit-gradient(linear, right top, left top, from(rgba(51, 37, 182, 0.5)), to(rgba(222, 14, 247, 0.5)));
+  background: linear-gradient(-90deg, rgba(51, 37, 182, 0.5), rgba(222, 14, 247, 0.5));
+}
+.content #pcpage2 .lvl3 .lvl32 .text:hover .header {
+  color: #ffffff;
+}
+.content #pcpage2 .lvl3 .lvl32 .text:hover .detail {
+  color: rgba(204, 221, 255, 0.6);
+}
+.content #pcpage3 {
+  padding-top: 95px;
+  padding-bottom: 125px;
+}
+.content #pcpage3 .page3-content {
+  margin: 0 auto;
+  width: 1280px;
+}
+.content #pcpage3 .page3-content .page3-text {
+  float: left;
+  padding-top: 170px;
+  width: 610px;
+}
+.content #pcpage3 .page3-content .page3-text .content {
+  color: #a1b8e6;
+  font-size: 16px;
+  font-weight: 400;
+  background-image: url("../images/bg.5d4c06e9.png");
+}
 @media screen and (min-width: 961px) {
   #pcpage2 .lvl2 .text {
     padding: 30px 50px;
     width: 50%;
   }
   #pcpage2 .lvl31 .text {
+    padding: 30px 50px;
+  }
+  #pcpage2 .lvl32 .text {
     padding: 30px 50px;
   }
 }
